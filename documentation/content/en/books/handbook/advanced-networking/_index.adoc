@@ -2345,7 +2345,7 @@ vlans_em0="5"
 ifconfig_em0_5="inet 192.168.20.20/24"
 ....
 
-Additional VLANs may be added, by simply adding the tag to the `vlans_em0` field and adding an additional line configuring the network on that VLAN tag's interface.
+Additional VLANs may be added, by adding the tag to the `vlans_em0` field, either by adding an additional line configuring the network on that VLAN tag's interface or by adding to the existing field any additional tags preceded by a comma (e.g., `vlans_em0="5,6,7"`).
 
 [NOTE]
 ====
